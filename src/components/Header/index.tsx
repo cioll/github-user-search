@@ -1,8 +1,16 @@
-import './Header.css';
+import React from 'react';
 
-const Header = (): JSX.Element => (
-  <header>
-    Github Search
+import en from '../../locales/en';
+
+import styles from './Header.module.css';
+
+/**
+ * Header component
+ * @returns A header component.
+ */
+const Header: React.FC = () => (
+  <header className={styles.header}>
+    {en.title}
   </header>
 );
 

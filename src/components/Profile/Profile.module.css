@@ -1,0 +1,41 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+    padding: 10px 15px 15px 15px;
+    text-align: center;
+    width: 100px;
+    height: 110px;
+    background-color: var(--light-grey);
+    box-shadow: 5px 5px 5px 1px #929292;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 6px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.checkbox {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.link {
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--black);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}

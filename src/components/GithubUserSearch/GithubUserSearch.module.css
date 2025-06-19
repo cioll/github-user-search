@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+    flex: 1;
+}
+
+.input {
+    background-color: var(--light-grey);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.buttons > button {
+    border: none;
+    background-color: transparent;
+    font-size: 34px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.buttons img {
+    width: 20px;
+    height: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.checkbox {
+    flex: 1;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    align-content: flex-start;
+    gap: 15px 30px;
+    border: 1px solid var(--black);
+    padding: 10px;
+    margin: 2px 0;
+    flex: 1 1 0;
+    width: 100%;
+    overflow-y: auto;
+}
