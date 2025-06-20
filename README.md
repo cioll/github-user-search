@@ -15,3 +15,15 @@
     - Delete items
 
 These actions are only front-end and will be reset when the search change
+
+## Note
+
+I use vite because create-react-app is deprecated.
+
+### Start project
+
+``npm run dev``
+
+### Start tests
+
+``npm test``
